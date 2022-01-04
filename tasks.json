@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"script": "build",
+			"path": "Package.json/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - Package.json",
+			"detail": "react-scripts build"
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "Package.json/",
+			"problemMatcher": [],
+			"label": "npm: install - Package.json",
+			"detail": "install dependencies from package"
+		}
+	]
+}
