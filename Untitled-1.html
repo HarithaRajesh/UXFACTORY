@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form action="/registration.aspx" name="registration" method="post">
+        <label for="fname">First Name</label><br/>
+        <input type="text" id="fname" name="fname" placeholder="First Name" />
+        <br/>
+        <br/>
+        <label for="lname">Last Name</label><br/>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" /> <br />
+        <br />
+        <label for="userpwd">Password:</label><br/>
+        <input type="password" id="userpwd" name="userpwd" /> <br/>
+        <br/>
+        <!--email-->
+        <label for="email">e-mail</label> <br />
+        <input type="email" id="email" name="email"> <br /><br />
+        <label for="city">City:</label> <br/>
+        <select id="city" name="city">
+        <option value="">Please choose an option</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="vijayawada">vijayawada</option>
+        <option value="Rajahmundry">Rajahmundry</option>
+        <option value="Guntur">Guntur</option>
+        <option value="kurnool">kurnool</option>
+        </select>
+        <br/><br/>
+        <div class="about">
+            <label for="About"></label> Yourself:</lab><br/>
+            <textarea name="about" rows="10" cols="40"></textarea>
+        </div>
+        <br/><br/>
+        <label>Choose Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="transgender" name="gender" value="transgender" />
+        <label for="education2">intermediate</label>
+        <input type="checkbox" id="education3" name="education3" value="Btech" />
+        <label for="education4">Mtech</label><br/><br/>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br/><br/>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br/><br/>
+        <label for="files">Upload Resume:</label>
+        <input type="file" id="files" name="files"> <br><br>
+        <label for="email">Email:</label>
+        <input for="email" id="files" name="email"><br><br>
+        <input for="pincode">Pin:</label>
+        <input type="number" id="pincode" name="pincode"><br><br>
+        <input type="submit" value="Register" name="register">
+        <input type="reset" name="reset" value="Reset Form">
+    </Form>
+</body>
+
+</html>
+
+
+
+</form>
+</body>
+</style>
+</head>
+
+</html>
