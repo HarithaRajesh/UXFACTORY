@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Z-index</title>
+    <style>
+        .container {
+            position: relative;
+        }
+        
+        .Table1 {
+            position: relative;
+            border: 2px sienna;
+            background-color: aquamarine;
+            width: 50%;
+            height: 200px;
+            top: 40px;
+            left: 10px;
+            z-index: 1;
+        }
+        
+        .Table2 {
+            position: absolute;
+            border: 3px dashed indianred;
+            background-color: lightcoral;
+            height: 100px;
+            width: 50%;
+            height: 300px;
+            left: 50px;
+            top: 40px;
+            z-index: 6;
+        }
+        
+        .Table3 {
+            position: inherit;
+            border: 3px saddlebrown;
+            background-color: blue;
+            height: 100px;
+            width: 50%;
+            margin-left: 200px;
+            top: 0;
+            left: 160px;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+</html>
+
+<body>
+    <h1>Text of heading</h1>
+    <img src="C:\ReactFolder\react-task\src\UXFACTORY\Images\images.jpg" width="200px" height="200px" />
+    <p>text of paragraph</p>
+    <div class="container">
+        <div class="Table1">Table-1</div>
+        <div class="Table2">Table-2</div>
+        <div class="Table3">Table-3</div>
+    </div>
+</body>

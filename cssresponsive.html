@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Media Queries</title>
+    <meta name="viewport" content="width-device-width,initial-scale=1.0" />
+    <style>
+        .column {
+            width: 50%;
+            float: left;
+            color: aquamarine;
+        }
+        /*Media Queries*/
+        /*Extra small devices*/
+        
+        @media only screen and (max-width:600px) {
+            .column {
+                width: 50%;
+                color: brown;
+                font-size: 50px;
+            }
+        }
+        /*small devices*/
+        
+        @media only screen and (min-width:500px) {
+            .column {
+                width: 30%;
+                color: blueviolet;
+            }
+        }
+        /*Medium devices*/
+        
+        @media only screen and (mi-width:768px) {
+            .column {
+                widt: 33%;
+                color: blue;
+            }
+        }
+        /*large devices*/
+        
+        @media only screen and (min-width:992px) {
+            .column {
+                width: 75%;
+                color: azure;
+            }
+        }
+        /*Extra large devices*/
+        
+        @media only screen and (min-width:1200px) {
+            .column {
+                width: 100%;
+                font-size: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column" style="background-color: blanchedalmond">
+            <h2>Lalitha</h2>
+            <p>Just See it</p>
+            <img src="C:\ReactFolder\react-task\src\UXFACTORY\Images\oxen.jpg" alt="oxen" width="100%">
+        </div>
+        <div class="column" style="background-color: aqua">
+            <h2>Sujatha</h2>
+            <p>Just Enjoy it</p>
+            <img src="C:\ReactFolder\react-task\src\UXFACTORY\Images\oxen.jpg" alt="oxen" width="100%">
+            <div class="column" style="background-color:blueviolet">
+                <h2>Devika</h2>
+                <p>Just Enjoy writing</p>
+                <img src="C:\ReactFolder\react-task\src\UXFACTORY\Images\oxen.jpg" alt="oxen" width="100%">
+            </div>
+            <div class="column" style="background-color:black">
+                <h2>Veni</h2>
+                <p>Just Enjoy writing Code</p>
+                <img src="C:\ReactFolder\react-task\src\UXFACTORY\Images\oxen.jpg" alt="oxen" width="100%">
+            </div>
+            <div class="column" style="background-color:bisque">
+                <h2>Praveen</h2>
+                <p>Just think & writ</p>
+                <img src="C:\ReactFolder\react-task\src\UXFACTORY\Images\oxen.jpg" alt="oxen" width="100%">
+            </div>
+</body>
+</body>
+
+</html>
